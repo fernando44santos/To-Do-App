@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App</title>
+
+  <!-- ---------------- estilos compartilhados entre login e signup ---------------- -->
+  <link rel="stylesheet" href="styles/acesso.css">
+
+  <!-- ---------------------- lógica aplicada no registro -------------------- -->
+
+
+</head>
+
+<body>
+
+  <div class="left">
+    <img src="./assets/pessoa-signup.png" alt="">
+  </div>
+  <div class="right">
+    <form id="forms">
+      <div class="form-header">
+        <p>To-Do App</p>
+      </div>
+
+      <label class="campo-form">
+        Nome:
+        <input id="inputName" type="text">
+        <div class="msg-erro"></div>
+      </label>
+      <label class="campo-form">
+        Sobrenome:
+        <input id="inputLastName" type="text">
+        <div class="msg-erro"></div>
+      </label>
+      <label class="campo-form">
+        Email:
+        <input id="inputEmail" type="email">
+        <div class="msg-erro"></div>
+      </label>
+      <label class="campo-form">
+        Senha:
+        <input id="inputPassword" type="password">
+        <div class="msg-erro"></div>
+      </label>
+      <label class="campo-form">
+        Repetir senha:
+        <input id="inputPassword02" type="password">
+        <div class="msg-erro"></div>
+      </label>
+
+      <button id="sign-up">Criar conta</button>
+
+    </form>
+    <div class="ingressar">
+      <a href="index.html">Já possui conta? Acesse aqui</a>
+    </div>
+  </div>
+  <script src="./scripts/utils.js"></script>
+  <script src="./scripts/signup.js"></script>
+</body>
+
+</html>
