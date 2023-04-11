@@ -166,7 +166,7 @@ async function CreatLogin() {
             alert("Usuario já se encontra registrado")
         }
         else{
-            alert("conta criada")
+            alert("Conta criada, já é possivel realizar o login")
         }
 
     }
